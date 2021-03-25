@@ -33,7 +33,7 @@ song_id VARCHAR PRIMARY KEY,
 title VARCHAR,
 artist_id VARCHAR, 
 year INT, 
-duration NUMERIC
+duration FLOAT
 )""")
 
 artist_table_create = ("""CREATE TABLE IF NOT EXISTS artists (
